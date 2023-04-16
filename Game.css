@@ -314,7 +314,7 @@
     overflow: visible;
     --web-animation: fadein undefineds undefined;
     --web-action-type: page;
-    --web-action-target: Homepage.html;
+    --web-action-target: index.html;
     cursor: pointer;
 }
 #Search {
