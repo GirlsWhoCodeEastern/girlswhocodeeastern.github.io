@@ -1,0 +1,152 @@
+.menu a
+{
+  border-style: solid; 
+  border-color: #333333;
+  background-color: #333333;
+  float: left;
+  padding: 12px;
+  width: 30%;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  color: #f1d9d9;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+hr
+{
+  height: 5px;
+  color: #000000;
+  background-color: #3f263d;
+  border: none;
+}
+.menu a:hover
+{
+  background-color: #f1d9d9;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.menu
+{
+  background-color: #333333;
+  overflow: hidden;
+  border-radius: 10px;
+}
+body
+{
+  font-family: Arial;
+  color: #3f263d;
+}
+h1, h3
+{
+  text-align: center;
+}
+.topArea
+{
+  font-size: 20px;
+  color: #5d4a5f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15vw 0 15vw;
+}
+.button
+{
+  background-color: #fb9898;
+  border-radius: 10px;
+  border: solid #fb9898;
+  font-size: 20px;
+  display: block;
+  font-family: monospace;
+  text-decoration: none;
+  padding: 10px;
+  width: 25%;
+  transition-duration: 0.4s;
+  color: #5d4a5f;
+}
+.button:hover
+{
+  transform: scale(1.2, 1.2);
+  background-color: #ffffff;
+  color: #927f94;
+  border: solid #35263d;
+}
+.bod
+{
+  font-size: 20px;
+  color: #35263d
+}
+
+form 
+{ 
+display:block; 
+background-color: #f1d9d9; 
+padding: 20px; 
+width: 540px; /*200 + 300 + (20 * 2)*/ 
+}
+
+legend 
+{ 
+font-weight: bold; 
+}
+
+label
+{ 
+width: 200px; 
+}
+
+label[for="emo"]
+{
+float: center;
+width: 20px;
+}
+
+input 
+{ 
+display: block; 
+width: 300px; 
+float: center; 
+padding: 3px;
+box-shadow: 3px 3px 5px grey;
+font-size: 14px;
+font-weight: 600;
+}
+
+input[type="checkbox"]
+{
+float: left;
+box-shadow: 0px 0px 0px grey;
+width: 100px;
+
+}
+
+input[type="submit"]
+{
+  background-color: inherit;
+  border-radius: 10px;
+  border: solid #927f94;
+  font-size: 20px;
+  display: block;
+  font-family: monospace;
+  text-decoration: none;
+  padding: 10px;
+  width: 20%;
+  transition-duration: 0.4s;
+  color: #35263d;
+}
+
+input[type="submit"]:hover
+{
+  background-color: inherit;
+  border-radius: 10px;
+  border: solid #f8b4b4;;
+  font-size: 20px;
+  display: block;
+  font-family: monospace;
+  text-decoration: none;
+  padding: 10px;
+  width: 20%;
+  transition-duration: 0.4s;
+  color: #fb9898;
+  transform: scale(1.2, 1.2);
+
+}
