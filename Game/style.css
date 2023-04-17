@@ -1,0 +1,57 @@
+/* use @media to control where the a links are placed.   */
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #F1D9D9;
+  font-family: Rockwell;
+  font-style: normal;
+  font-weight: normal;
+}
+h1{
+  font-size: 48px;
+}
+a{
+  background-color: #3f263d;
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 2px 0;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  width: 12em;
+  justify-content: space-evenly;
+}
+img{
+  width: 15em;
+}
+.options{
+ display: grid;
+  padding-top: 30px;
+  padding-left: 600px;
+  text-align: center;
+}
+/* 
+.options a{
+  
+} */
+
+@media only screen and (max-width: 780px) {
+  .options{
+  display: grid;
+  padding-top: 30px;
+  padding-left: 110px;
+  text-align: center;
+  }
+  img{
+    width: 20em;
+    padding-left: 120px;
+  }
+  h1{
+    padding-left: 10px;
+  }
+} 
